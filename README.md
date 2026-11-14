@@ -16,6 +16,9 @@ Small experiments with `let`, `mut`, and changing a variable's value.
 ### [hangman](./hangman)
 A terminal Hangman game. Guess one letter at a time, or type the whole word if you know it. The ASCII gallows art lives in its own module, `src/gallows.rs`.
 
+### [snake](./snake)
+A graphical Snake game in a real window. Steer with the arrow keys or WASD, press R to restart after losing, Escape to quit. Uses `minifb` for the window and draws the score with `font8x8`.
+
 ## Running a project
 
 Every folder except `hello_world/main.rs` is a Cargo project:
